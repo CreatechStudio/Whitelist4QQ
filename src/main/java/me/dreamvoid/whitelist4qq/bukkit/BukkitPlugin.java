@@ -2,8 +2,8 @@ package me.dreamvoid.whitelist4qq.bukkit;
 
 import me.dreamvoid.miraimc.api.MiraiBot;
 import me.dreamvoid.miraimc.api.MiraiMC;
-import me.dreamvoid.miraimc.bukkit.event.MiraiGroupMemberLeaveEvent;
-import me.dreamvoid.miraimc.bukkit.event.MiraiGroupMessageEvent;
+import me.dreamvoid.miraimc.bukkit.event.group.member.MiraiMemberLeaveEvent.Quit;
+import me.dreamvoid.miraimc.bukkit.event.message.passive;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.GameMode;
